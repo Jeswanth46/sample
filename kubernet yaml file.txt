@@ -35,3 +35,12 @@ kubectl get svc
 
 on chrome 
 http://localhost:<5 digit node port>
+
+on cmd 
+kubectl scale deployment nginx-deployment --replicas=4
+
+kubectl get pods
+
+kubectl delete svc nginx-service
+
+kubectl delete deployment nginx-deployment
